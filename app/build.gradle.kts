@@ -33,6 +33,7 @@ android {
 }
 
 dependencies {
+    implementation("com.google.android.material:material:1.11.0")
     implementation(platform("com.google.firebase:firebase-bom:34.0.0"))
     implementation("com.google.firebase:firebase-analytics")
     implementation("com.google.firebase:firebase-inappmessaging-display:20.3.3")
